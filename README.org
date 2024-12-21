@@ -12,4 +12,4 @@ To use this you would need to have youtube-dl or yt-dlp installed on your system
 
 To determine URLs for which emms-info-ytdl is used one can tune =emms-info-ytdl-regexp= and =emms-info-ytdl-exclude-regexp=
 
-[[./video/Screencasts.mp4]]
+[[file:./video/Screencasts.mp4]]
