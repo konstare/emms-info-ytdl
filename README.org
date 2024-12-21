@@ -1,0 +1,15 @@
+#+TITLE: emms-info-ytdl - Info method for EMMS using a ytdl program
+
+This module provides support for youtube info function in emms. Due to legal [[https://lists.gnu.org/archive/html/emacs-devel/2022-03/msg00754.html][issue]] this support cannot be included in emms.
+
+Somewhere in your init file: 
+#+begin_src emacs-lisp
+(add-to-list 'emms-info-functions #'emms-info-ytdl)
+#+end_src
+
+
+To use this you would need to have youtube-dl or yt-dlp installed on your system. This program can be specified in variable =emms-info-ytdl-command=.
+
+To determine URLs for which emms-info-ytdl is used one can tune =emms-info-ytdl-regexp= and =emms-info-ytdl-exclude-regexp=
+
+[[./video/Screencasts.mp4]]
